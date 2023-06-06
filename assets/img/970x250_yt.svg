@@ -1,0 +1,14 @@
+<svg width="970" height="250" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="252" width="972" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1" d="m-1,-1l972,0l0,252l-972,0l0,-252z" fill="#e2ecf5"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="34" id="svg_4" y="57.4375" x="104.0625" stroke-width="0" stroke="#000" fill="#a2acb5">https://www.youtube.com/watch?v=52zmpRT5RFg</text>
+  <path stroke="#000" transform="rotate(180 485,125) " id="svg_5" d="m472.999995,124.946413l12.000002,-22.271996l12.000002,22.271996l-6.000002,0l0,22.379165l-12.000002,0l0,-22.379165l-6.000002,0z" stroke-width="0" fill="#a2acb5"/>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="34" id="svg_6" y="208.4375" x="142.789063" stroke-width="0" stroke="#000" fill="#a2acb5">https://aiovideodl.ml/watch?v=52zmpRT5RFg</text>
+ </g>
+</svg>

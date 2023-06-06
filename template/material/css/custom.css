@@ -1,0 +1,141 @@
+h1.page-title {
+    font-size: xx-large;
+    text-shadow: 3px 3px 20px #000000;
+}
+
+.title, .info-title {
+    font-family: Roboto, sans-serif;
+}
+
+.country-flag {
+    width: 15%;
+}
+
+.share-text {
+    margin-bottom: -1%;
+}
+
+.pBtn, .site-selection .site-block {
+    color: #fff !important;
+    border-radius: 3px;
+    font-weight: 700
+}
+
+.site-selection .site-block {
+    padding: 15px 5px
+}
+
+.pBtn, .pBtn:hover, .site-selection .site span {
+    text-decoration: none !important
+}
+
+.site-selection .site {
+    margin-bottom: 30px
+}
+
+.site-selection .site span {
+    text-align: center;
+    color: #223254e6 !important;
+    font-weight: 700
+}
+
+.site-selection a:hover .preview {
+    border: 2px solid #562769
+}
+
+.btn-st {
+    width: 12rem !important;
+}
+
+.btn-dl {
+    width: 8rem !important;
+}
+
+.btn.btn-whatsapp {
+    color: #fff;
+    background-color: #25D366;
+    border-color: #109b44;
+    box-shadow: 0 2px 2px 0 rgba(37, 211, 102, .14), 0 3px 1px -2px rgba(37, 211, 102, .2), 0 1px 5px 0 rgba(37, 211, 102, .12);
+}
+
+.btn.btn-whatsapp:hover {
+    color: #fff;
+    background-color: #17c558;
+    border-color: #109b44;
+    box-shadow: 0 2px 2px 0 rgba(85, 172, 238, .14), 0 3px 1px -2px rgba(85, 172, 238, .2), 0 1px 5px 0 rgba(85, 172, 238, .12);
+}
+
+.btn-download {
+    min-width: 78px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    line-height: 60px;
+    border-radius: 0 5px 5px 0;
+}
+
+.btn-paste {
+    min-width: 78px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    line-height: 60px;
+    border-radius: 0;
+    background-color: white !important;
+    color: black;
+    border: 0 ;
+}
+
+.btn-paste:hover:active:focus     {
+    background-color: white !important;
+    color: black !important;
+    border: 0 !important;
+    box-shadow: 0 0 0 !important;
+}
+
+.btn-icons {
+    font-size: 1.5rem !important;
+}
+
+.section {
+    padding: 0;
+}
+
+.ad {
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.input-group {
+    background: #fff;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    padding: 0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .3);
+    display: flex;
+}
+
+.page-header {
+    height: 50vh;
+}
+
+#url {
+    border: 0;
+    height: 60px;
+    padding: 0 1.125rem;
+    border-radius: 0;
+    font-size: 1.125rem;
+    background-color: #fff;
+    color: #555;
+    background-image: none
+}
+
+#url::placeholder {
+    color: #4e555b;
+}
+
+.container-padding {
+    padding-top: 2%;
+}

@@ -1,0 +1,4 @@
+<FilesMatch "404\.php|about\.php|error\.php|footer\.php|functions\.php|header\.php|main\.php|page\.php">
+  Order allow,deny
+  Deny from all
+</FilesMatch>

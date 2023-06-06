@@ -1,0 +1,2 @@
+<?php
+str_ireplace

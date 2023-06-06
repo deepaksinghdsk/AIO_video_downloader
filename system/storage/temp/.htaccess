@@ -1,0 +1,4 @@
+order allow,deny
+<Files ~ "\.(mp4|ts|jpg|mp3|ogg)$">
+   allow from all
+</Files>
