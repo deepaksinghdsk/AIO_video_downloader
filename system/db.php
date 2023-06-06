@@ -1,5 +1,5 @@
 <?php
-$database["host"] = "localhost:3306";
+$database["host"] = "[2409:4072:e92:116c:d0d5:1742:cc71:a3e9]:3306";//"localhost:3306";
 $database["name"] = "db";
 $database["user"] = "kali";
 $database["password"] = "kali";
