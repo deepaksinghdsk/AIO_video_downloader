@@ -1,8 +1,30 @@
-FROM php:7.2-apache
+FROM richarvey/nginx-php-fpm:1.9.1
 
-RUN apt-get update && \
-    apt-get install -y libpq-dev && \
-    docker-php-ext-install pdo pdo_pgsql pdo_mysql mbstring
+COPY . .
+
+# Image config
+ENV SKIP_COMPOSER 1
+ENV WEBROOT /var/www/html/public
+ENV PHP_ERRORS_STDERR 1
+ENV RUN_SCRIPTS 1
+ENV REAL_IP_HEADER 1
+
+# Laravel config
+ENV APP_ENV production
+ENV APP_DEBUG false
+ENV LOG_CHANNEL stderr
+
+# Allow composer to run as root
+ENV COMPOSER_ALLOW_SUPERUSER 1
+
+CMD ["/start.sh"]
+
+
+#FROM php:7.2-apache
+
+#RUN apt-get update && \
+ #   apt-get install -y libpq-dev && \
+  #  docker-php-ext-install pdo pdo_pgsql pdo_mysql mbstring
     
 #RUN apt-get install -y libzip-dev libjpeg62-turbo-dev libpng-dev libfreetype6-dev
 
@@ -14,4 +36,4 @@ RUN apt-get update && \
 
 #RUN docker-php-ext-install gd
 
-COPY . /var/www/html/
+#COPY . /var/www/html/
