@@ -4,7 +4,7 @@ RUN apt-get update && \
     apt-get install -y libpq-dev && \
     docker-php-ext-install pdo pdo_pgsql
     
-RUN apt-get install -y libzip-dev libjpeg62-turbo-dev libpng-dev libfreetype6-dev
+#RUN apt-get install -y libzip-dev libjpeg62-turbo-dev libpng-dev libfreetype6-dev
 
 # Install extensions
 
